@@ -1,0 +1,50 @@
+\documentclass[english,12pt,a4paper,titlepage]{scrbook}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage{xcolor}
+\usepackage{nameref}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage{imakeidx}
+\makeindex
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{example}[theorem]{Example}
+
+\title{Legendre functions}
+\subtitle{A collection of points from different sources}
+\author{Manjunatha M R}
+\begin{document}
+	\maketitle %Creates tittle page
+	\tableofcontents % Add a table of contents
+	
+	\part{Book: Higher transcendental functions, by Harry Bateman}
+	\chapter{introduction}
+	\section{}
+	The expansion of $(a^2 - 2arcos(\gamma)+ r^2)^{-\frac{1}{2}}$ in powers of $r$ contains the coefficients in terms of $cos(\gamma$). These coefficients are polynomials of $cos(\gamma)$. These were first introduced in 1784 by Legendre and are known as Legendre polynomials. The expression $(a^2- 2arcos(\gamma)+ r^2)$ is dealing the potential at a point $P$ of a source at the point $A$. Here $r$ and $a$ are the distances of $P$ and $A$ from $O$ (Origin) respectively.  
+	\chapter{Solution of Legendre Differential equations}
+	\section{Legendre functions and differential equations}
+	\begin{definition}
+		[Legendre's differential equation] A differential equation of the form
+		\[(1-z^2)\frac{d^2 \omega}{dz^2} -2z\frac{dw}{dz}+ [\nu(\nu+1) - \frac{\mu^2}{(1-z)^2}]\omega=0,\]
+		where $\nu$,$\mu$ and z are unrestricted(Complex numbers)
+	\end{definition}
+	\begin{definition}[Legendre functions]\label{Legendre functions}\index{Legendre functions}
+		The Legendre functions are solutions of Legendre's differential equation.
+	\end{definition}
+	\part{Book: Asymptotic and special functions, by F.W.J Olver}\label{part:two}
+	\printindex
+\end{document}

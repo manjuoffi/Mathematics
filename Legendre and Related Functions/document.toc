@@ -1,0 +1,7 @@
+\babel@toc {english}{}\relax 
+\contentsline {part}{\numberline {I}Book: Higher transcendental functions, by Harry Bateman}{5}{part.1}%
+\contentsline {chapter}{\numberline {1}introduction}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Solution of Legendre Differential equations}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Legendre functions and differential equations}{9}{section.2.1}%
+\contentsline {part}{\numberline {II}Book: Asymptotic and special functions, by F.W.J Olver}{11}{part.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
