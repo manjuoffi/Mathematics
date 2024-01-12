@@ -1,0 +1,70 @@
+\documentclass[english,12pt,a4paper]{extbook}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage{xcolor}
+\usepackage{nameref}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage{imakeidx}
+\makeindex
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{recall}[theorem]{Recall}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{example}[theorem]{Example}
+
+\title{Book Name}
+\author{Author}
+
+\begin{document}
+	\maketitle %Creates tittle page
+	\tableofcontents %For tabel of contntents
+	%Chapter1: 
+	\chapter{Chapter Name}%1st chapter
+	%Section1:
+		\section{Section}%1st Section
+			\begin{question}
+				content...
+			\end{question}
+			\begin{recall}
+				content...
+			\end{recall}
+			\begin{definition}
+				content...
+			\end{definition}\index{definition sample}
+			\begin{example}
+				content...
+			\end{example}
+				\begin{proposition}
+					content...
+				\end{proposition}
+				\begin{lemma}
+					content...
+				\end{lemma}
+				\begin{theorem}\label{thm:sample}
+					content...
+				\end{theorem}
+				\begin{remark}
+					See \ref{thm:sample}
+				\end{remark}
+				\begin{note}
+					content...
+				\end{note}
+				
+				\begin{exercise}
+					content...
+				\end{exercise}
+				
+	\printindex %Printing index
+\end{document}
